@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "learn-playwright"
+version = "0.0.1"
+description = "lean-playwright: A playwright leaning project for QA friends"
+requires-python = ">=3.13"
+dependencies = [
+    "black",
+    "ipython",
+    "ipdb",
+    "playwright",
+    "pre-commit",
+    "pytest",
+]
