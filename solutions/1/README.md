@@ -3,7 +3,7 @@
 ## Explaination
 
 1. So we should begin by opening up the Login page to identify the elements manually. Open the link and right click the element and choose `Identify`, alternatively `CMD + Option + I` in most browsers.
-   ![One inspect](../screenshots/one-1.png)
+   ![One inspect](../screenshots/1-step1.png)
 2. So after the page is loaded, we can grab and store the testbox element using `my_field = page.get_by_label("...")` because each input has a label
 3. Now that we have the fields in the form we need to send them the provided username and password using `my_field.type("...")`
 4. At this point we should have both fields filled in! Now we can click on the form's Login button using the `.click(a_locator)` like `page.click("#somebuttonid")`
