@@ -15,7 +15,7 @@ make setup
 
 Complete these exercises to learn the fundamentals of Playwright. Each exercise builds upon the previous ones, introducing new concepts and techniques.
 
-1. [ ] **Login Form Automation**
+1. [ ] **Login Form Automation [Loose Guide](./solutions/one/README.md)|[Solution](./solutions/one/one.py)**
 
     - Navigate to the login page
     - Fill in username and password fields
